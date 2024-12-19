@@ -5,6 +5,6 @@ export default defineConfig({
   base: "/", // Set the base URL for your project (root or sub-directory)
   plugins: [react()],
   build: {
-    outDir: "dist", // Output directory for the production build
+    outDir: "dist/client", // Output directory for the production build
   },
 });
