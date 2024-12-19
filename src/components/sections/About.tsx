@@ -14,7 +14,7 @@ export default function About() {
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200" />
             <img
-              src="src/assets/cartoonMe.png"
+              src="./src/assets/cartoonMe.png"
               alt="Developer workspace"
               className="relative rounded-lg w-full h-[400px] object-cover"
             />
