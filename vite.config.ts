@@ -1,7 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: "/", // Set the base URL for your project (root or sub-directory)
   plugins: [react()],
-})
+  build: {
+    outDir: "dist", // Output directory for the production build
+  },
+});
