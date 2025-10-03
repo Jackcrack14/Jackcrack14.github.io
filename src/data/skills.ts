@@ -10,8 +10,10 @@ import {
   GitBranch,
   Cpu,
   Network,
-  Settings
-} from 'lucide-react';
+  Settings,
+  Package,
+  Cloud,
+} from "lucide-react";
 
 export const skillCategories = [
   {
@@ -20,10 +22,11 @@ export const skillCategories = [
     skills: [
       { name: "JavaScript", icon: FileJson },
       { name: "Python", icon: TerminalSquare },
+      { name: "Go", icon: Package },
       { name: "SQL", icon: Database },
       { name: "HTML", icon: Brackets },
-      { name: "CSS", icon: Globe }
-    ]
+      { name: "CSS", icon: Globe },
+    ],
   },
   {
     icon: Server,
@@ -34,8 +37,9 @@ export const skillCategories = [
       { name: "Express.js", icon: Server },
       { name: "Selenium", icon: Settings },
       { name: "MongoDB", icon: Database },
-      { name: "MySQL", icon: Database }
-    ]
+      { name: "MySQL", icon: Database },
+      { name: "Gin", icon: Server },
+    ],
   },
   {
     icon: Wrench,
@@ -45,7 +49,8 @@ export const skillCategories = [
       { name: "REST API", icon: Network },
       { name: "Data Structures", icon: Cpu },
       { name: "Algorithms", icon: Settings },
-      { name: "OOP", icon: Wrench }
-    ]
-  }
+      { name: "OOP", icon: Wrench },
+      { name: "AWS", icon: Cloud },
+    ],
+  },
 ];
