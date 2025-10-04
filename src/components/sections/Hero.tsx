@@ -44,7 +44,7 @@ export default function Hero() {
             </NeonGlow>
 
             <HolographicText className="text-5xl sm:text-7xl font-bold mb-6">
-              Digital Craftsman
+              Curious Engineer
             </HolographicText>
 
             <motion.p
@@ -53,8 +53,8 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
             >
-              Creating next-generation digital experiences with cutting-edge
-              technology
+              From APIs to UI, I communicate fluently with every part of the
+              stack—making sure everything plays nice together.
             </motion.p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

@@ -7,11 +7,16 @@ interface LoadingScreenProps {
 
 export default function LoadingScreen({ isLoading }: LoadingScreenProps) {
   const loadingTexts = [
-    "Initializing neural interface...",
-    "Establishing quantum connection...",
-    "Calibrating holographic display...",
-    "Loading digital assets...",
-    "Synchronizing data streams...",
+    "Compiling backend services...",
+    "Connecting to databases...",
+    "Initializing API endpoints...",
+    "Setting up front-end assets...",
+    "Syncing client-server communication...",
+    "Deploying microservices...",
+    "Fetching user data...",
+    "Optimizing UI components...",
+    "Running unit tests...",
+    "Configuring build pipeline...",
   ];
 
   return (

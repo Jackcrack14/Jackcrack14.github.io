@@ -25,7 +25,8 @@ export const projects = [
   },
   {
     title: "Contact Manager",
-    description: "Full-stack contact management application",
+    description:
+      "Full-stack contact management application built using MERN Stack",
     tech: ["React", "Node.js", "MySQL", "Express.js"],
     highlights: [
       "Responsive UI with React",

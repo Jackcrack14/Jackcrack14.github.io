@@ -25,7 +25,7 @@ export const experiences = [
   },
   {
     company: "BNP Paribas",
-    position: "Software Engineer Intern",
+    position: "Software Engineer",
     period: "Feb 2023 – Sep 2023",
     highlights: [
       "Collaborated on front-end development of web applications",

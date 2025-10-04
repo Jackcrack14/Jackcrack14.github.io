@@ -17,31 +17,34 @@ export default function About() {
             <img
               src={image}
               alt="Developer workspace"
-              className="relative rounded-lg w-full h-[400px] object-cover"
+              className="relative rounded-lg w-full h-[565px] object-cover"
             />
           </div>
 
           <GradientCard>
             <div className="prose prose-invert max-w-none">
-              <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                I'm a Full Stack Developer with a passion for creating
-                innovative web solutions. With experience in both front-end and
-                back-end development, I specialize in building scalable
-                applications using modern technologies.
+              <p className="text-gray-300 text-lg leading-relaxed mb-6 text-justify">
+                I’m a Full Stack Developer with expertise in building scalable
+                web applications using modern technologies. With a strong
+                foundation in both front-end and back-end development, I focus
+                on creating user-centric solutions that solve real-world
+                problems and drive business impact.
               </p>
-              <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                My journey in software development began at SASTRA University,
-                where I earned my Bachelor's degree in Computer Science and
-                Business Systems. Since then, I've worked with various
-                technologies and frameworks, always staying current with the
-                latest industry trends.
+              <p className="text-gray-300 text-lg leading-relaxed mb-6 text-justify">
+                I graduated with a Bachelor of Technology in Computer Science
+                and Business Systems from SASTRA University. My recent
+                experience at Entropik involved developing AI-powered features,
+                reducing API calls by 30%, and improving user engagement by 30%.
+                At OAPPS, I designed security portals, integrated automation
+                tools, and streamlined workflows, boosting efficiency by over
+                40%.
               </p>
-              <p className="text-gray-300 text-lg leading-relaxed">
-                I'm particularly interested in creating user-centric
-                applications that solve real-world problems. Whether it's
-                developing responsive front-end interfaces or architecting
-                robust back-end systems, I'm always excited to take on new
-                challenges.
+              <p className="text-gray-300 text-lg leading-relaxed text-justify">
+                I’m passionate about staying ahead of industry trends and
+                continuously learning. Whether it's enhancing user experiences
+                with React and Node.js or integrating complex SDKs and APIs, I’m
+                always excited to take on new challenges and build end-to-end
+                solutions that scale.
               </p>
             </div>
           </GradientCard>

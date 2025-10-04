@@ -13,6 +13,8 @@ import {
   Settings,
   Package,
   Cloud,
+  Cog,
+  Code,
 } from "lucide-react";
 
 export const skillCategories = [
@@ -26,6 +28,8 @@ export const skillCategories = [
       { name: "SQL", icon: Database },
       { name: "HTML", icon: Brackets },
       { name: "CSS", icon: Globe },
+      { name: "C", icon: Code },
+      { name: "C++", icon: Code },
     ],
   },
   {
@@ -39,6 +43,7 @@ export const skillCategories = [
       { name: "MongoDB", icon: Database },
       { name: "MySQL", icon: Database },
       { name: "Gin", icon: Server },
+      { name: "FastAPI", icon: Server },
     ],
   },
   {
@@ -51,6 +56,7 @@ export const skillCategories = [
       { name: "Algorithms", icon: Settings },
       { name: "OOP", icon: Wrench },
       { name: "AWS", icon: Cloud },
+      { name: "Jenkins", icon: Cog },
     ],
   },
 ];
